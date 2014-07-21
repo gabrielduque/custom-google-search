@@ -1,0 +1,32 @@
+{
+  "name": "custom-google-search",
+  "description": "Google search without limits",
+  "homepage": "https://github.com/joridos/custom-google-search",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=0.11.*"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "cgsearch": "cgsearch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joridos/custom-google-search.git"
+  },
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "co": "~3.0.5",
+    "co-prompt": "^1.0.0",
+    "commander": "~2.2.0",
+    "node-fs": "^0.1.7",
+    "permalinks": "^0.2.1",
+    "promise": "^5.0.0",
+    "request": "^2.37.0",
+    "traceur": "0.0.49",
+    "underscore": "^1.6.0",
+    "v8-argv": "^0.2.0"
+  },
+  "author": "Joridos <jonatam.ribeiro@hotmail.com> (http://joridos.com/)",
+  "license": "MIT"
+}
